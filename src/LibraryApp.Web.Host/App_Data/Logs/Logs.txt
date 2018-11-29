@@ -1,0 +1,238 @@
+DEBUG 2018-11-28 21:33:15,782 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-11-28 21:33:15,917 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-11-28 21:33:15,973 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibraryApp.Web.Host.Startup.LibraryAppWebHostModule, LibraryApp.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibraryApp.LibraryAppWebCoreModule, LibraryApp.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibraryApp.LibraryAppApplicationModule, LibraryApp.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibraryApp.LibraryAppCoreModule, LibraryApp.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: LibraryApp.EntityFrameworkCore.LibraryAppEntityFrameworkModule, LibraryApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,979 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:15,981 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-11-28 21:33:16,104 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-11-28 21:33:16,105 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-11-28 21:33:16,105 [1    ] o.Configuration.LanguageManagementConfig - Converted LibraryApp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-11-28 21:33:16,105 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-11-28 21:33:16,798 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: LibraryApp.EntityFrameworkCore.LibraryAppDbContext, LibraryApp.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-11-28 21:33:18,038 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-11-28 21:33:18,075 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-11-28 21:33:18,092 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-11-28 21:33:18,102 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: LibraryApp
+DEBUG 2018-11-28 21:33:18,111 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-11-28 21:33:18,317 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-11-28 21:33:18,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-11-28 21:33:18,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-11-28 21:33:18,372 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.Users.Dto.CreateUserDto
+DEBUG 2018-11-28 21:33:18,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.Users.Dto.UserDto
+DEBUG 2018-11-28 21:33:18,374 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-11-28 21:33:18,374 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-11-28 21:33:18,374 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.Roles.Dto.CreateRoleDto
+DEBUG 2018-11-28 21:33:18,374 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.Roles.Dto.PermissionDto
+DEBUG 2018-11-28 21:33:18,374 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.Roles.Dto.RoleDto
+DEBUG 2018-11-28 21:33:18,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-11-28 21:33:18,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - LibraryApp.MultiTenancy.Dto.TenantDto
+INFO  2018-11-28 21:33:22,473 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-11-28 21:33:23,319 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 847.5856ms 404 
+INFO  2018-11-28 21:34:49,605 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-11-28 21:34:49,631 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:34:49,640 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.6245ms 204 
+INFO  2018-11-28 21:34:49,649 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-11-28 21:34:49,652 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:34:49,830 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"2a49189e-85fd-2f52-b189-39ea584d1e07","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"ba026a05-020c-4b78-a906-14dc8689e2a7","iat":1543434808,"nbf":1543434808,"exp":1543521208,"iss":"AspNetBoilerPlateDemo","aud":"AspNetBoilerPlateDemo"}'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2018-11-28 21:34:49,835 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"2a49189e-85fd-2f52-b189-39ea584d1e07","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"ba026a05-020c-4b78-a906-14dc8689e2a7","iat":1543434808,"nbf":1543434808,"exp":1543521208,"iss":"AspNetBoilerPlateDemo","aud":"AspNetBoilerPlateDemo"}'.
+WARN  2018-11-28 21:34:49,843 [13   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:34:49,854 [13   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:00,547 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2018-11-28 21:35:00,560 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:00,610 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2018-11-28 21:35:01,199 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 583.4172ms.
+INFO  2018-11-28 21:35:01,371 [20   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-28 21:35:01,432 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 878.8355ms
+INFO  2018-11-28 21:35:01,441 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11791.7462ms 200 application/json; charset=utf-8
+INFO  2018-11-28 21:35:01,456 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-11-28 21:35:01,458 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:01,461 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.5733ms 204 
+INFO  2018-11-28 21:35:01,464 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-11-28 21:35:01,467 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:01,502 [12   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"2a49189e-85fd-2f52-b189-39ea584d1e07","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"ba026a05-020c-4b78-a906-14dc8689e2a7","iat":1543434808,"nbf":1543434808,"exp":1543521208,"iss":"AspNetBoilerPlateDemo","aud":"AspNetBoilerPlateDemo"}'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2018-11-28 21:35:01,505 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"2a49189e-85fd-2f52-b189-39ea584d1e07","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"ba026a05-020c-4b78-a906-14dc8689e2a7","iat":1543434808,"nbf":1543434808,"exp":1543521208,"iss":"AspNetBoilerPlateDemo","aud":"AspNetBoilerPlateDemo"}'.
+INFO  2018-11-28 21:35:01,524 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application)
+INFO  2018-11-28 21:35:01,527 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:02,031 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application) - Validation state: Valid
+INFO  2018-11-28 21:35:02,040 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.3326ms.
+INFO  2018-11-28 21:35:02,059 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-28 21:35:02,105 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application) in 577.3691ms
+INFO  2018-11-28 21:35:02,109 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 643.2485ms 200 application/json; charset=utf-8
+INFO  2018-11-28 21:35:04,960 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-11-28 21:35:04,963 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:04,965 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.555ms 204 
+INFO  2018-11-28 21:35:04,969 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 77
+INFO  2018-11-28 21:35:04,971 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:05,004 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"2a49189e-85fd-2f52-b189-39ea584d1e07","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"ba026a05-020c-4b78-a906-14dc8689e2a7","iat":1543434808,"nbf":1543434808,"exp":1543521208,"iss":"AspNetBoilerPlateDemo","aud":"AspNetBoilerPlateDemo"}'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2018-11-28 21:35:05,007 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey , KeyId: 
+'.
+Exceptions caught:
+ ''.
+token: '{"alg":"HS256","typ":"JWT"}.{"http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier":"1","http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name":"admin","AspNet.Identity.SecurityStamp":"2a49189e-85fd-2f52-b189-39ea584d1e07","http://schemas.microsoft.com/ws/2008/06/identity/claims/role":"Admin","sub":"1","jti":"ba026a05-020c-4b78-a906-14dc8689e2a7","iat":1543434808,"nbf":1543434808,"exp":1543521208,"iss":"AspNetBoilerPlateDemo","aud":"AspNetBoilerPlateDemo"}'.
+INFO  2018-11-28 21:35:05,033 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action LibraryApp.Controllers.TokenAuthController.Authenticate (LibraryApp.Web.Core)
+INFO  2018-11-28 21:35:05,036 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:05,489 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LibraryApp.Controllers.TokenAuthController.Authenticate (LibraryApp.Web.Core) with arguments (LibraryApp.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2018-11-28 21:35:06,016 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method LibraryApp.Controllers.TokenAuthController.Authenticate (LibraryApp.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 522.7774ms.
+INFO  2018-11-28 21:35:06,345 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-28 21:35:06,352 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LibraryApp.Controllers.TokenAuthController.Authenticate (LibraryApp.Web.Core) in 1315.0335ms
+INFO  2018-11-28 21:35:06,355 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1386.0732ms 200 application/json; charset=utf-8
+INFO  2018-11-28 21:35:06,708 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-11-28 21:35:06,710 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:06,713 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.7772ms 204 
+INFO  2018-11-28 21:35:06,738 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-11-28 21:35:06,741 [8    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:06,762 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2018-11-28 21:35:06,859 [8    ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:06,864 [8    ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:06,867 [8    ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:06,870 [8    ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:06,884 [4    ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:06,888 [4    ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:06,910 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2018-11-28 21:35:06,913 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:06,919 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2018-11-28 21:35:07,127 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 203.906ms.
+INFO  2018-11-28 21:35:07,154 [20   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-28 21:35:07,159 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 245.4055ms
+INFO  2018-11-28 21:35:07,163 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 424.4853ms 200 application/json; charset=utf-8
+INFO  2018-11-28 21:35:07,175 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-11-28 21:35:07,178 [12   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:07,182 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.0639ms 204 
+INFO  2018-11-28 21:35:07,187 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-11-28 21:35:07,191 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:07,194 [20   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2018-11-28 21:35:07,197 [20   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:07,199 [20   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:07,202 [20   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:07,204 [20   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:07,216 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application)
+INFO  2018-11-28 21:35:07,219 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:07,227 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application) - Validation state: Valid
+INFO  2018-11-28 21:35:07,252 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21.2895ms.
+INFO  2018-11-28 21:35:07,258 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-28 21:35:07,263 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application) in 42.9812ms
+INFO  2018-11-28 21:35:07,265 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.3393ms 200 application/json; charset=utf-8
+INFO  2018-11-28 21:35:08,030 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZaKuyiw8eXeBlDVNpTwvRPUq%2BLPO55dQgWYWU3VQ%2F3mner7Hl7fJQ4rjPpcduT8shRLHzsmXVOayedbVFPNcmp6uKpZhL1MfsLSs58YX88QmIsHt1Bgwkn5q5XuUwdu5aDjWtwJP0%2BEt0aGF21vEWpST8hz9suifdCpujbo20EG2T7CIaOrB67J5MO3rByGwr9510lAF8Jh%2FLKjRoIryeavJunYUzozvPJslL3GFh6g%2BeLXJdGlYQAagkEydrt%2BSM5w%2BDiRcOePshxHAZ1Rgl8oVTQRiVIxLHYTo6M6pmT5ar58a5hvQFjBKrYP6ScU6H5yszFgWZ%2B5fc9DbZFRp%2FQHw3GUbSCf4KIMmdtpINtgibYCbiAiFPHjvgZJ34%2Btkw%2FIpIws6wlSiQk9IaEAdWU2UeQgS%2FbuFOh4qKTcLXFnReKB0%2FZQHPBimaJjiKcvAoWfogAd4ugSlcviBWNkgMCRX5i6Er5aBkmTW8h%2FwV7pwJC3pcdqgGuXhHfWpPDvnJzhitEJpKV%2FY2qpVpDYiIU  
+INFO  2018-11-28 21:35:08,033 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:08,036 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.7722ms 204 
+INFO  2018-11-28 21:35:08,155 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZaKuyiw8eXeBlDVNpTwvRPUq%2BLPO55dQgWYWU3VQ%2F3mner7Hl7fJQ4rjPpcduT8shRLHzsmXVOayedbVFPNcmp6uKpZhL1MfsLSs58YX88QmIsHt1Bgwkn5q5XuUwdu5aDjWtwJP0%2BEt0aGF21vEWpST8hz9suifdCpujbo20EG2T7CIaOrB67J5MO3rByGwr9510lAF8Jh%2FLKjRoIryeavJunYUzozvPJslL3GFh6g%2BeLXJdGlYQAagkEydrt%2BSM5w%2BDiRcOePshxHAZ1Rgl8oVTQRiVIxLHYTo6M6pmT5ar58a5hvQFjBKrYP6ScU6H5yszFgWZ%2B5fc9DbZFRp%2FQHw3GUbSCf4KIMmdtpINtgibYCbiAiFPHjvgZJ34%2Btkw%2FIpIws6wlSiQk9IaEAdWU2UeQgS%2FbuFOh4qKTcLXFnReKB0%2FZQHPBimaJjiKcvAoWfogAd4ugSlcviBWNkgMCRX5i6Er5aBkmTW8h%2FwV7pwJC3pcdqgGuXhHfWpPDvnJzhitEJpKV%2FY2qpVpDYiIU text/plain;charset=UTF-8 0
+INFO  2018-11-28 21:35:08,158 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:08,170 [22   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2018-11-28 21:35:08,174 [22   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:08,176 [22   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:08,180 [22   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:08,182 [22   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:08,217 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.341ms 200 application/json
+INFO  2018-11-28 21:35:08,275 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZaKuyiw8eXeBlDVNpTwvRPUq%2BLPO55dQgWYWU3VQ%2F3mner7Hl7fJQ4rjPpcduT8shRLHzsmXVOayedbVFPNcmp6uKpZhL1MfsLSs58YX88QmIsHt1Bgwkn5q5XuUwdu5aDjWtwJP0%2BEt0aGF21vEWpST8hz9suifdCpujbo20EG2T7CIaOrB67J5MO3rByGwr9510lAF8Jh%2FLKjRoIryeavJunYUzozvPJslL3GFh6g%2BeLXJdGlYQAagkEydrt%2BSM5w%2BDiRcOePshxHAZ1Rgl8oVTQRiVIxLHYTo6M6pmT5ar58a5hvQFjBKrYP6ScU6H5yszFgWZ%2B5fc9DbZFRp%2FQHw3GUbSCf4KIMmdtpINtgibYCbiAiFPHjvgZJ34%2Btkw%2FIpIws6wlSiQk9IaEAdWU2UeQgS%2FbuFOh4qKTcLXFnReKB0%2FZQHPBimaJjiKcvAoWfogAd4ugSlcviBWNkgMCRX5i6Er5aBkmTW8h%2FwV7pwJC3pcdqgGuXhHfWpPDvnJzhitEJpKV%2FY2qpVpDYiIU&id=aJATEWa1YLqXx6oxhP_9hQ  
+INFO  2018-11-28 21:35:08,277 [22   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:08,283 [22   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2018-11-28 21:35:08,285 [22   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:08,288 [22   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:08,290 [22   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:08,293 [22   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:08,411 [13   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-11-28 21:35:08,434 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"aJATEWa1YLqXx6oxhP_9hQ","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-11-28T21:35:08.4261401+01:00","Properties":{}}
+DEBUG 2018-11-28 21:35:08,463 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: aJATEWa1YLqXx6oxhP_9hQ
+DEBUG 2018-11-28 21:35:41,011 [8    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: aJATEWa1YLqXx6oxhP_9hQ
+INFO  2018-11-28 21:35:41,023 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32748.8344ms 101 
+INFO  2018-11-28 21:35:47,631 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-11-28 21:35:47,635 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:47,639 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.7217ms 204 
+INFO  2018-11-28 21:35:47,688 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2018-11-28 21:35:47,692 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:47,697 [20   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2018-11-28 21:35:47,699 [20   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:47,704 [20   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:47,714 [20   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:47,717 [20   ] calization.RequestLocalizationMiddleware - AbpLocalizationHeaderRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:47,720 [20   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:47,724 [20   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:47,738 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2018-11-28 21:35:47,743 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:47,749 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2018-11-28 21:35:47,782 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 27.7989ms.
+INFO  2018-11-28 21:35:47,800 [8    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-28 21:35:47,822 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 62.823ms
+INFO  2018-11-28 21:35:47,841 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 137.4887ms 200 application/json; charset=utf-8
+INFO  2018-11-28 21:35:47,888 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-11-28 21:35:47,895 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:47,909 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.5791ms 204 
+INFO  2018-11-28 21:35:47,920 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations application/json 
+INFO  2018-11-28 21:35:47,931 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:47,936 [20   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2018-11-28 21:35:47,942 [20   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:47,950 [20   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:47,953 [20   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:47,959 [20   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:47,978 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application)
+INFO  2018-11-28 21:35:47,982 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:48,003 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application) - Validation state: Valid
+INFO  2018-11-28 21:35:48,022 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 15.2449ms.
+INFO  2018-11-28 21:35:48,033 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-11-28 21:35:48,039 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action LibraryApp.Sessions.SessionAppService.GetCurrentLoginInformations (LibraryApp.Application) in 55.5251ms
+INFO  2018-11-28 21:35:48,052 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 127.677ms 200 application/json; charset=utf-8
+INFO  2018-11-28 21:35:49,684 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZaKuyiw8eXeBlDVNpTwvRPUq%2BLPO55dQgWYWU3VQ%2F3mner7Hl7fJQ4rjPpcduT8shRLHzsmXVOayedbVFPNcmp6uKpZhL1MfsLSs58YX88QmIsHt1Bgwkn5q5XuUwdu5aDjWtwJP0%2BEt0aGF21vEWpST8hz9suifdCpujbo20EG2T7CIaOrB67J5MO3rByGwr9510lAF8Jh%2FLKjRoIryeavJunYUzozvPJslL3GFh6g%2BeLXJdGlYQAagkEydrt%2BSM5w%2BDiRcOePshxHAZ1Rgl8oVTQRiVIxLHYTo6M6pmT5ar58a5hvQFjBKrYP6ScU6H5yszFgWZ%2B5fc9DbZFRp%2FQHw3GUbSCf4KIMmdtpINtgibYCbiAiFPHjvgZJ34%2Btkw%2FIpIws6wlSiQk9IaEAdWU2UeQgS%2FbuFOh4qKTcLXFnReKB0%2FZQHPBimaJjiKcvAoWfogAd4ugSlcviBWNkgMCRX5i6Er5aBkmTW8h%2FwV7pwJC3pcdqgGuXhHfWpPDvnJzhitEJpKV%2FY2qpVpDYiIU  
+INFO  2018-11-28 21:35:49,687 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:49,690 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.0609ms 204 
+INFO  2018-11-28 21:35:50,078 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZaKuyiw8eXeBlDVNpTwvRPUq%2BLPO55dQgWYWU3VQ%2F3mner7Hl7fJQ4rjPpcduT8shRLHzsmXVOayedbVFPNcmp6uKpZhL1MfsLSs58YX88QmIsHt1Bgwkn5q5XuUwdu5aDjWtwJP0%2BEt0aGF21vEWpST8hz9suifdCpujbo20EG2T7CIaOrB67J5MO3rByGwr9510lAF8Jh%2FLKjRoIryeavJunYUzozvPJslL3GFh6g%2BeLXJdGlYQAagkEydrt%2BSM5w%2BDiRcOePshxHAZ1Rgl8oVTQRiVIxLHYTo6M6pmT5ar58a5hvQFjBKrYP6ScU6H5yszFgWZ%2B5fc9DbZFRp%2FQHw3GUbSCf4KIMmdtpINtgibYCbiAiFPHjvgZJ34%2Btkw%2FIpIws6wlSiQk9IaEAdWU2UeQgS%2FbuFOh4qKTcLXFnReKB0%2FZQHPBimaJjiKcvAoWfogAd4ugSlcviBWNkgMCRX5i6Er5aBkmTW8h%2FwV7pwJC3pcdqgGuXhHfWpPDvnJzhitEJpKV%2FY2qpVpDYiIU text/plain;charset=UTF-8 0
+INFO  2018-11-28 21:35:50,081 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:50,090 [13   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2018-11-28 21:35:50,104 [13   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:50,111 [13   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:50,114 [13   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:50,117 [13   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:50,120 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.6524ms 200 application/json
+INFO  2018-11-28 21:35:50,238 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZaKuyiw8eXeBlDVNpTwvRPUq%2BLPO55dQgWYWU3VQ%2F3mner7Hl7fJQ4rjPpcduT8shRLHzsmXVOayedbVFPNcmp6uKpZhL1MfsLSs58YX88QmIsHt1Bgwkn5q5XuUwdu5aDjWtwJP0%2BEt0aGF21vEWpST8hz9suifdCpujbo20EG2T7CIaOrB67J5MO3rByGwr9510lAF8Jh%2FLKjRoIryeavJunYUzozvPJslL3GFh6g%2BeLXJdGlYQAagkEydrt%2BSM5w%2BDiRcOePshxHAZ1Rgl8oVTQRiVIxLHYTo6M6pmT5ar58a5hvQFjBKrYP6ScU6H5yszFgWZ%2B5fc9DbZFRp%2FQHw3GUbSCf4KIMmdtpINtgibYCbiAiFPHjvgZJ34%2Btkw%2FIpIws6wlSiQk9IaEAdWU2UeQgS%2FbuFOh4qKTcLXFnReKB0%2FZQHPBimaJjiKcvAoWfogAd4ugSlcviBWNkgMCRX5i6Er5aBkmTW8h%2FwV7pwJC3pcdqgGuXhHfWpPDvnJzhitEJpKV%2FY2qpVpDYiIU&id=LTG295yiBvthSUQdBm8-yw  
+INFO  2018-11-28 21:35:50,246 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-11-28 21:35:50,253 [21   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+WARN  2018-11-28 21:35:50,259 [21   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:50,261 [21   ] calization.RequestLocalizationMiddleware - AbpUserRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+WARN  2018-11-28 21:35:50,266 [21   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported cultures 'null'.
+WARN  2018-11-28 21:35:50,268 [21   ] calization.RequestLocalizationMiddleware - AbpDefaultRequestCultureProvider returned the following unsupported UI Cultures 'null'.
+INFO  2018-11-28 21:35:50,278 [13   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-11-28 21:35:50,285 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"LTG295yiBvthSUQdBm8-yw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-11-28T21:35:50.2792211+01:00","Properties":{}}
+DEBUG 2018-11-28 21:35:50,286 [13   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: LTG295yiBvthSUQdBm8-yw
