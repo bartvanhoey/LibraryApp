@@ -20,6 +20,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.4" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LibraryApp.Application\LibraryApp.Application.csproj" />
     <ProjectReference Include="..\LibraryApp.Core\LibraryApp.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
