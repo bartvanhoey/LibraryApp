@@ -1,5 +1,5 @@
 using System.IO;
-﻿using System;
+using System;
 using System.Linq;
 using System.Reflection;
 using Microsoft.AspNetCore.Builder;
@@ -15,7 +15,6 @@ using Abp.Castle.Logging.Log4Net;
 using Abp.Extensions;
 using LibraryApp.Configuration;
 using LibraryApp.Identity;
-
 using Abp.AspNetCore.SignalR.Hubs;
 
 namespace LibraryApp.Web.Host.Startup
@@ -64,13 +63,14 @@ namespace LibraryApp.Web.Host.Startup
             // Swagger - Enable this line and the related lines in Configure method to enable swagger UI
             services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc("v1", new Info { Title = "LibraryApp API", Version = "v1" });
+                options.SwaggerDoc("v1", new Info {Title = "LibraryApp API", Version = "v1"});
                 options.DocInclusionPredicate((docName, description) => true);
 
                 // Define the BearerAuth scheme that's in use
                 options.AddSecurityDefinition("bearerAuth", new ApiKeyScheme()
                 {
-                    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+                    Description =
+                        "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
                     Name = "Authorization",
                     In = "header",
                     Type = "apiKey"
@@ -92,7 +92,15 @@ namespace LibraryApp.Web.Host.Startup
 
             app.UseCors(_defaultCorsPolicyName); // Enable CORS!
 
-app.Use(async (context, next) =>                {                    await next();                    if (context.Response.StatusCode == 404                        && !Path.HasExtension(context.Request.Path.Value))                    {                        context.Request.Path = "/index.html";                        await next();                    }                });
+            app.Use(async (context, next) =>
+            {
+                await next();
+                if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value))
+                {
+                    context.Request.Path = "/index.html";
+                    await next();
+                }
+            });
             app.UseStaticFiles();
 
             app.UseAuthentication();
@@ -100,10 +108,7 @@ app.Use(async (context, next) =>                {                    await next(
             app.UseAbpRequestLocalization();
 
 
-            app.UseSignalR(routes =>
-            {
-                routes.MapHub<AbpCommonHub>("/signalr");
-            });
+            app.UseSignalR(routes => { routes.MapHub<AbpCommonHub>("/signalr"); });
 
             app.UseMvc(routes =>
             {
@@ -121,7 +126,8 @@ app.Use(async (context, next) =>                {                    await next(
             // Enable middleware to serve swagger-ui assets (HTML, JS, CSS etc.)
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint(_appConfiguration["App:ServerRootAddress"].EnsureEndsWith('/') + "swagger/v1/swagger.json", "LibraryApp API V1");
+                options.SwaggerEndpoint(_appConfiguration["App:ServerRootAddress"]
+                                            .EnsureEndsWith('/') + "swagger/v1/swagger.json", "LibraryApp API V1");
                 options.IndexStream = () => Assembly.GetExecutingAssembly()
                     .GetManifestResourceStream("LibraryApp.Web.Host.wwwroot.swagger.ui.index.html");
             }); // URL: /swagger
