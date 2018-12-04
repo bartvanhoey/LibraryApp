@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Abp.Domain.Services;
 
-namespace LibraryApp.Models
+namespace LibraryApp.Models.Category
 {
     public interface ICategoryManager: IDomainService
     {

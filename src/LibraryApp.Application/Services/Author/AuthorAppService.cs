@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Abp.Application.Services;
 using AutoMapper;
 using LibraryApp.Models;
+using LibraryApp.Models.Author;
 using LibraryApp.Services.Authors.DTO;
 
 namespace LibraryApp.Services.AuthorService
@@ -21,8 +22,10 @@ namespace LibraryApp.Services.AuthorService
         public async Task Create(CreateAuthorInput input) 
             => await _authorManager.Create(Mapper.Map<CreateAuthorInput, Author>(input));
 
-        public void Update(UpdateAuthorInput input) 
-            => _authorManager.Update(Mapper.Map<UpdateAuthorInput, Author>(input));
+        public void Update(UpdateAuthorInput input)
+        {
+            _authorManager.Update(Mapper.Map<UpdateAuthorInput, Author>(input));
+        }
 
         public void Delete(DeleteAuthorInput input) 
             => _authorManager.Delete(input.Id);

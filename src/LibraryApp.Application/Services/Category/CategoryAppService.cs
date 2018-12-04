@@ -4,11 +4,12 @@ using System.Threading.Tasks;
 using Abp.Application.Services;
 using AutoMapper;
 using LibraryApp.Models;
+using LibraryApp.Models.Category;
 using LibraryApp.Services.Categories.DTO;
 
 namespace LibraryApp.Services.Categories
 {
-    public class CategoryAppService : ApplicationService
+    public class CategoryAppService : ApplicationService, ICategoryAppService
     {
         private readonly ICategoryManager _categoryManager;
 

@@ -5,7 +5,7 @@ using LibraryApp.Services.Books.DTO;
 
 namespace LibraryApp.Services.Books
 {
-    internal interface IBookAppService : IApplicationService
+    public interface IBookAppService : IApplicationService
     {
         IEnumerable<GetBookOutput> ListALl();
         Task Create(CreateBookInput input);

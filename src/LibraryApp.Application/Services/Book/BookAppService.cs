@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Abp.Application.Services;
 using AutoMapper;
 using LibraryApp.Models;
+using LibraryApp.Models.Book;
 using LibraryApp.Services.Authors.DTO;
 using LibraryApp.Services.Books.DTO;
 

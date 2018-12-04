@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Domain.Services;
 using Abp.UI;
 
-namespace LibraryApp.Models
+namespace LibraryApp.Models.Author
 {
     public class AuthorManager: DomainService, IAuthorManager
     {
@@ -28,8 +29,11 @@ namespace LibraryApp.Models
 
         public void Update(Author entity)
         {
-            if (_repo.FirstOrDefault(x => x.Id == entity.Id) != null)
-                _repo.Update(entity);
+            var author = _repo.FirstOrDefault(x => x.Id == entity.Id);
+            if (author != null)
+            {    entity.MapTo(author);
+                _repo.Update(author);
+            }
             else
                 throw new UserFriendlyException("Author does not exist");
         }

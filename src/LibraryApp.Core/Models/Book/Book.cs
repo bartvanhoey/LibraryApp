@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Domain.Entities.Auditing;
 
-namespace LibraryApp.Models
+namespace LibraryApp.Models.Book
 {
     public class Book : FullAuditedEntity
     {
@@ -19,8 +19,8 @@ namespace LibraryApp.Models
         [ForeignKey(nameof(Category))]
         public int CategoryId { get; set; }
 
-        public virtual Author Author { get; set; }
+        public virtual Author.Author Author { get; set; }
 
-        public virtual Category Category { get; set; }
+        public virtual Category.Category Category { get; set; }
     }
 }
