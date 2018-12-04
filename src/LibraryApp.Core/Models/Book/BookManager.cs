@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Domain.Services;
 using Abp.UI;
 
-namespace LibraryApp.Models
+namespace LibraryApp.Models.Book
 {
     public class BookManager: DomainService, IBookManager
     {
@@ -28,8 +29,12 @@ namespace LibraryApp.Models
 
         public void Update(Book entity)
         {
-            if (_repo.FirstOrDefault(x => x.Id == entity.Id) != null)
-                _repo.Update(entity);
+            var book = _repo.FirstOrDefault(x => x.Id == entity.Id);
+            if (book != null)
+            {
+                entity.MapTo(book);
+                _repo.Update(book);
+            }
             else
                 throw new UserFriendlyException("Book does not exist");
         }

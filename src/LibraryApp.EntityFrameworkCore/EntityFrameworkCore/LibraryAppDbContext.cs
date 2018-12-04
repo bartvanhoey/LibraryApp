@@ -3,6 +3,9 @@ using Abp.Zero.EntityFrameworkCore;
 using LibraryApp.Authorization.Roles;
 using LibraryApp.Authorization.Users;
 using LibraryApp.Models;
+using LibraryApp.Models.Author;
+using LibraryApp.Models.Book;
+using LibraryApp.Models.Category;
 using LibraryApp.MultiTenancy;
 
 namespace LibraryApp.EntityFrameworkCore

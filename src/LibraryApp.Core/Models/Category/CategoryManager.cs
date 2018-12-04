@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Domain.Services;
 using Abp.UI;
 
-namespace LibraryApp.Models
+namespace LibraryApp.Models.Category
 {
     public class CategoryManager : DomainService, ICategoryManager
     {
@@ -28,8 +29,12 @@ namespace LibraryApp.Models
 
         public void Update(Category entity)
         {
-            if (_repo.FirstOrDefault(x => x.Id == entity.Id) != null)
-                _repo.Update(entity);
+            var category = _repo.FirstOrDefault(x => x.Id == entity.Id);
+            if (category != null)
+            {
+                entity.MapTo(category);
+                _repo.Update(category);
+            }
             else
                 throw new UserFriendlyException("Category does not exist");
         }
